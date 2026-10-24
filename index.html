@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HIMANSHU GAMING</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#07070d;color:#fff;overflow-x:hidden}
+header{position:fixed;top:0;width:100%;z-index:10;background:rgba(7,7,13,.85);backdrop-filter:blur(12px);border-bottom:1px solid #252536}
+nav{max-width:1100px;margin:auto;padding:18px 22px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:22px;font-weight:900;letter-spacing:1px;color:#00f7ff;text-shadow:0 0 15px #00f7ff}
+nav a{color:#ddd;text-decoration:none;margin-left:22px;font-weight:700}
+nav a:hover{color:#00f7ff}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:110px 20px 60px;background:radial-gradient(circle at 50% 35%,#172052 0,#0b0b14 42%,#050509 100%)}
+.hero h1{font-size:clamp(48px,10vw,100px);line-height:.95;font-weight:1000;color:#fff;text-shadow:0 0 10px #00f7ff,0 0 35px #0077ff}
+.hero p{margin:24px auto;max-width:650px;color:#bbb;font-size:18px}
+.btn{display:inline-block;padding:14px 25px;border-radius:10px;background:#00eaff;color:#001015;text-decoration:none;font-weight:900;box-shadow:0 0 25px #00eaff;transition:.2s}
+.btn:hover{transform:translateY(-3px);box-shadow:0 0 40px #00eaff}
+section{max-width:1100px;margin:auto;padding:80px 22px}
+.title{text-align:center;font-size:36px;margin-bottom:35px;color:#00f7ff;text-shadow:0 0 15px #00f7ff}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:linear-gradient(145deg,#11111d,#090912);border:1px solid #27273d;border-radius:18px;padding:25px;min-height:180px;transition:.25s}
+.card:hover{transform:translateY(-7px);border-color:#00eaff;box-shadow:0 0 25px #00eaff33}
+.icon{font-size:45px;margin-bottom:15px}
+.card h3{margin-bottom:10px}
+.card p{color:#999;line-height:1.5}
+.video{height:180px;border-radius:14px;background:linear-gradient(135deg,#141428,#202044);display:flex;align-items:center;justify-content:center;font-size:45px;margin-bottom:15px}
+footer{text-align:center;padding:35px;color:#777;border-top:1px solid #222}
+@media(max-width:650px){nav a{margin-left:10px;font-size:13px}.hero p{font-size:16px}}
+</style>
+</head>
+<body>
+<header><nav><div class="logo">⚡ HIMANSHU GAMING</div><div><a href="#home">Home</a><a href="#games">Games</a><a href="#videos">Videos</a></div></nav></header>
+<main>
+<section class="hero" id="home"><div><div style="font-size:18px;color:#00eaff;font-weight:800;letter-spacing:4px">WELCOME TO THE ARENA</div><h1>HIMANSHU<br>GAMING</h1><p>Gaming • Challenges • Funny Moments • Tournaments</p><a class="btn" href="#games">ENTER GAME ZONE 🎮</a></div></section>
+<section id="games"><h2 class="title">🎮 GAME ZONE</h2><div class="grid">
+<div class="card"><div class="icon">🎮</div><h3>Battle Royale</h3><p>Epic battles, clutch moments and intense gameplay.</p></div>
+<div class="card"><div class="icon">🏎️</div><h3>Racing</h3><p>Speed, stunts and high-octane racing challenges.</p></div>
+<div class="card"><div class="icon">👻</div><h3>Horror Games</h3><p>Scary adventures and unexpected surprises.</p></div>
+<div class="card"><div class="icon">🧩</div><h3>Challenges</h3><p>Fun gaming challenges and crazy experiments.</p></div>
+</div></section>
+<section id="videos"><h2 class="title">🔥 LATEST VIDEOS</h2><div class="grid">
+<div class="card"><div class="video">▶️</div><h3>Epic Gaming Moment</h3><p>Watch the latest gameplay highlight.</p></div>
+<div class="card"><div class="video">▶️</div><h3>Funny Gaming Challenge</h3><p>Can I complete this impossible challenge?</p></div>
+<div class="card"><div class="video">▶️</div><h3>Pro Gameplay</h3><p>Clutch plays and insane moments.</p></div>
+</div></section>
+<section><h2 class="title">🏆 TOURNAMENTS</h2><div class="card" style="text-align:center"><h3 style="font-size:25px">COMING SOON</h3><p style="margin:12px 0 20px">New gaming tournaments and community challenges.</p><a class="btn" href="#home">BACK TO TOP</a></div></section>
+</main><footer>© 2026 HIMANSHU GAMING • Game On 🎮</footer>
+</body></html>
